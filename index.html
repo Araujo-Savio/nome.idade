@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang=""pt-BR>
+    <head>
+        <title>Pergunta de Nome e Idade</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h2>👤 Informe seu nome e idade</h2>
+
+            <div id="formulario">
+                <input type="text" id="nome" placeholder="Digite seu nome"/><br>
+                <input type="number" id="idade" placeholder="Digite sua idade" min="0" /><br>
+                <button onclick="verificarDados()">Enviar</button>
+            </div>
+
+            <div id="mensagem"></div>
+
+            <img id="imagemUsuario" src="./img/511-DNZiXcL._AC_.png" alt="hacker" style="display: none; margin-top: 20px;">
+        </div>
+        <script src="app.js" defer></script>
+    </body>
+</html>
